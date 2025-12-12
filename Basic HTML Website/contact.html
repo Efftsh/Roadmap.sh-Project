@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Cinzel:wght@400..900&family=Inter:ital,opsz@0,14..32;1,14..32&family=Lora:ital,wght@0,400..700;1,400..700&family=Playwrite+US+Trad:wght@100..400&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="contact.css" />
+    <link rel="stylesheet" href="quaries.css" />
+    <title>Contact Page</title>
+  </head>
+  <body>
+    <header class="header container">
+      <nav class="navigation">
+        <a class="logo" href="index.html">Iffat</a>
+        <ul class="main-nav">
+          <li><a class="main-nav-link dash" href="index.html">Home</a></li>
+          <li><a class="main-nav-link dash" href="#">Projects</a></li>
+          <li><a class="main-nav-link dash" href="#">Articles</a></li>
+          <li><a class="main-nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <section class="hero">
+        <div class="wrapper-hero container">
+          <h1 class="heading-primary">Contact Form</h1>
+          <p class="hero-text">Let's connect</p>
+        </div>
+      </section>
+
+      <section class="contact">
+        <div class="contact-content container">
+          <img
+            class="contact-img"
+            src="img/contactimg.jpg"
+            alt="a photo of a building"
+          />
+          <div class="wrapper-contact">
+            <h1 class="contact-heading">Let's get in touch.</h1>
+            <form class="contact-form" action="#">
+              <div class="first-name-box">
+                <label for="first-name">First Name</label>
+                <input
+                  id="first-name"
+                  type="text"
+                  placeholder="Enter your first name"
+                  required
+                />
+              </div>
+              <div class="last-name-box">
+                <label for="last-name">Last Name</label>
+                <input
+                  id="last-name"
+                  type="text"
+                  placeholder="Enter you last name"
+                  required
+                />
+              </div>
+
+              <div class="email-box">
+                <label for="email">Email Address</label>
+                <input
+                  id="email"
+                  type="email"
+                  placeholder="Enter your email address..."
+                  required
+                />
+              </div>
+
+              <div class="phone-box">
+                <label for="phone-number">Phone Number</label>
+                <input
+                  id="phone-number"
+                  type="number"
+                  required
+                  placeholder="60-1234567"
+                />
+              </div>
+
+              <div class="message-box">
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  id=""
+                  placeholder="Enter you main text here"
+                ></textarea>
+              </div>
+              <button>Submit From &rarr;</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </header>
+  </body>
+</html>

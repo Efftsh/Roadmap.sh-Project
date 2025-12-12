@@ -1,0 +1,149 @@
+@media (max-width: 60rem) {
+  html {
+    font-size: 52.5%;
+  }
+}
+
+@media (max-width: 45rem) {
+  .container {
+    width: 62rem;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 35rem) {
+  html {
+    font-size: 40%;
+  }
+  .container {
+    width: auto;
+  }
+  .logo {
+    font-size: 3.2rem;
+  }
+  .hero-text {
+    font-size: 2x1rem;
+    font-weight: 500;
+  }
+  .navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.4rem;
+  }
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    display: inline-block;
+    font-size: 2rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: #555;
+  }
+  .heading-primary {
+    font-size: 3.6rem;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+  }
+  .wrapper-hero {
+    height: 10rem;
+  }
+
+  .heading-tiatary {
+    font-size: 2.2rem;
+    font-weight: 600;
+  }
+
+  .main-content {
+    padding: 4.4rem 0;
+  }
+  .wrapper-main-content {
+    grid-template-columns: 1fr;
+    gap: 1.2rem;
+    margin: 0 1.2rem;
+  }
+  .side-content-left {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    border-right: none;
+  }
+
+  .scl-link:link,
+  .scl-link:visited {
+    font-size: 2rem;
+  }
+  .side-content-right {
+    grid-column: 1/2;
+    grid-row: 4/5;
+    border-left: none;
+    border-top: 0.1rem solid black;
+  }
+  .side-content-right-description {
+    font-size: 2rem;
+  }
+  .side-content-right-text {
+    font-size: 2rem;
+  }
+  .courses-content {
+    font-size: 2rem;
+  }
+  .main-1 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    padding: 2.4rem 0;
+    border-top: 0.1rem solid black;
+  }
+  .main-1-wrapper {
+    padding: 2.4rem 1.2rem;
+  }
+  .wrapper-heading {
+    border-bottom: 0.1rem solid black;
+  }
+  .main-heading {
+    margin-left: 1.2rem;
+  }
+  .main-1-description {
+    font-size: 2rem;
+  }
+  .main-2-description {
+    font-size: 2rem;
+  }
+  .profile:link,
+  .profile:visited {
+    font-size: 1.8rem;
+  }
+
+  .main-2 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    padding: 2.4rem 1.2rem;
+  }
+  .side-content-right-description {
+    font-size: 2rem;
+  }
+
+  .testimonial-content {
+    margin: 0 1.5rem 0 1.5rem;
+  }
+
+  .testimonial-heading {
+    margin-left: 1.2rem;
+  }
+  .testimonial p {
+    font-size: 2rem;
+  }
+  .testimonial-description {
+    font-size: 2rem;
+  }
+  .testimonial-name,
+  .testimonial-role {
+    font-size: 1.8rem;
+  }
+
+  .grid {
+    gap: 1.2rem;
+  }
+  .grid-3-cols {
+    grid-template-columns: 1fr;
+  }
+}
