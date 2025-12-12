@@ -8,4 +8,4 @@ Single Page CV: https://roadmap.sh/projects/single-page-cv
 - https://github.com/Efftsh/Roadmap.sh-Project/tree/main/Single-Page%20CV
   
 Bascil HTML Website: https://roadmap.sh/projects/basic-html-website
-- https://github.com/Efftsh/Roadmap.sh-Project/tree/main/Basic%20HTML%20Website
+- [https://github.com/Efftsh/Roadmap.sh-Project/tree/main/Basic%20HTML%20Website](https://github.com/Efftsh/Roadmap.sh-Project/tree/main/Basic%20HTML%20Website)
