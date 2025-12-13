@@ -10,3 +10,6 @@ Single Page CV: https://roadmap.sh/projects/single-page-cv
 Bascil HTML Website: https://roadmap.sh/projects/basic-html-website, 
 Personal Portfolio: https://roadmap.sh/projects/portfolio-website
 - [https://github.com/Efftsh/Roadmap.sh-Project/tree/main/Basic%20HTML%20Website](https://github.com/Efftsh/Roadmap.sh-Project/tree/main/Basic%20HTML%20Website)
+
+Changelog Compenent: https://roadmap.sh/projects/changelog-component
+- https://github.com/Efftsh/Roadmap.sh-Project/tree/main/Changelog%20Project
