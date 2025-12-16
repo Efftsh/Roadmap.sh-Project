@@ -27,6 +27,7 @@ body {
 }
 img {
   width: 5.4rem;
+  object-fit: cover;
 }
 .wrapper {
   width: 50rem;
@@ -221,3 +222,4 @@ img {
   margin-top: 1.2rem;
   font-size: 1.3rem;
 }
+
