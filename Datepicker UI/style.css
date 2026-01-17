@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: #333;
+  font-weight: 400;
+  font-family: "inter", sans-serif;
+}
+.container {
+  width: 20rem;
+  margin: 0 auto;
+}
+.header {
+  margin-top: 2.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.calender {
+  border: solid 1px black;
+  margin-bottom: 0.2rem;
+  height: 2.4rem;
+}
+.calendar-icon {
+  width: 2rem;
+  height: 2rem;
+}
+.date-input {
+  width: 17.4rem;
+  height: 2.4rem;
+  padding: 0 1.3rem 0 1.3rem;
+  font-weight: 700;
+  margin-bottom: 0.2rem;
+}
+
+.main {
+  border: solid 1px black;
+}
+.date-slider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.button {
+  width: 2.3rem;
+  height: 2.3rem;
+  cursor: pointer;
+}
+.h1 {
+  font-size: 1.5rem;
+}
+.wrapper-day-content {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  margin-bottom: 0.5rem;
+}
+.day {
+  font-size: 1.4rem;
+}
+.wrapper-date-content {
+  display: grid;
+  grid-template-columns: repeat(31, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+}
+
+.date {
+  padding: 0.6rem;
+  border: solid 1px black;
+  font-size: 1.3rem;
+}
+.date1 {
+  grid-column: 5/6;
+}
+.date4 {
+  grid-column: 1/2;
+}
+.date11 {
+  grid-column: 1/2;
+}
+.date18 {
+  grid-column: 1/2;
+}
+.date25 {
+  grid-column: 1/2;
+}
