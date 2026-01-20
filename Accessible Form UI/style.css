@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: #333;
+  font-weight: 400;
+  font-family: "inter", sans-serif;
+}
+
+.container {
+  width: 40rem;
+  margin: 0 auto;
+}
+
+input::placeholder {
+  padding-left: 0.6rem;
+  font-size: 1.2rem;
+}
+label {
+  display: inline-block;
+  margin-bottom: 0.6rem;
+  align-self: start;
+}
+input {
+  margin-bottom: 1rem;
+}
+.main-content {
+  margin-top: 2.4rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  border: solid 1px black;
+  border-radius: 10px;
+  padding: 1rem;
+}
+.form-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  grid-column: 1/2;
+  grid-row: 1/3;
+  position: relative;
+  padding: 1rem;
+}
+
+button {
+  border-style: none;
+  width: 14.5rem;
+  padding: 0.5rem;
+  background-color: #212529;
+  color: white;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+.percentage-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.percentage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 6rem;
+  height: 6rem;
+  border-top: solid 2px black;
+  border-bottom: solid 1px #858585;
+  border-left: solid 2px black;
+  border-right: solid 1px #858585;
+  border-radius: 50%;
+  transform: rotate(-46deg);
+}
+
+.percentage-number {
+  font-size: 1.6rem;
+  transform: rotate(46deg);
+}
+.list {
+  background-color: #ced4da;
+  border-radius: 1rem;
+}
+
+.list-content {
+  padding: 1rem 1rem 1rem 1rem;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.dash {
+  text-decoration: line-through;
+}
+
+.email-red {
+  border: solid 1px red;
+  color: red;
+  margin-bottom: 0.6rem;
+}
+
+.email-red::placeholder {
+  color: red;
+}
+.red-p {
+  align-self: start;
+  color: red;
+  margin-bottom: 1rem;
+}
+
+.eye-icon-password {
+  position: absolute;
+  cursor: pointer;
+  right: 20%;
+  top: 60%;
+  transform: translate(240%, -70%);
+}
+.eye-icon-cpassword {
+  position: absolute;
+  cursor: pointer;
+  right: 20%;
+  top: 80%;
+  transform: translate(235%, -95%);
+}

@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A basic HTML and CSS Accessible Form UI"
+    />
+    <title>Accessible Form UI</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </head>
+  <body>
+    <main class="main-content container">
+      <form class="form-content" action="">
+        <label for="full-name">Full Name</label>
+        <input
+          type="text"
+          name="full-name"
+          placeholder="What should we call you?"
+        />
+        <label for="email">Email</label>
+        <input
+          type="email"
+          name="email"
+          s
+          placeholder="john@doe.com"
+          class="email-red"
+        />
+        <p class="red-p">Email is already taken</p>
+        <label for="password">Enter Password</label>
+        <input
+          type="password"
+          name="password"
+          placeholder="xxxxxx"
+          class="password"
+        />
+        <ion-icon name="eye-outline" class="eye-icon-password"></ion-icon>
+        <label for="confirm-password">Confrim Password</label>
+        <input
+          type="password"
+          name="confirm-password"
+          placeholder="xxxxxx"
+          class="cpassword"
+        />
+        <ion-icon name="eye-outline" class="eye-icon-cpassword"></ion-icon>
+        <button>Update Profile</button>
+      </form>
+      <div class="percentage-wrapper">
+        <div class="percentage">
+          <p class="percentage-number">65%</p>
+        </div>
+        <h2>Profile Completeness</h2>
+      </div>
+      <div class="list">
+        <ul class="list-content">
+          <li class="lis-text"><span class="dash">Create Account</span></li>
+          <li class="lis-text">
+            <span class="dash"> Update Roadmap Progress</span>
+          </li>
+          <li class="lis-text">
+            <span class="dash">Setup Public Profile </span>
+          </li>
+          <li class="lis-text">Complete your first project</li>
+          <li class="lis-text">Invite your Friends</li>
+        </ul>
+      </div>
+    </main>
+  </body>
+</html>
